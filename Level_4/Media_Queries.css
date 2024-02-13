@@ -1,0 +1,64 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+@media (width : 600px){
+    div{
+        background-color: red;
+    }
+}
+
+/* @media (min-width : 500px)
+{
+    div{
+        background-color: blue;
+    }
+} */
+
+@media (max-width : 600px)
+{
+    div{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px)
+{
+    div{
+        background-color: green;
+    }
+}
+
+/* Practice Set 7 */
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+@media (max-width : 300px){
+    #div2{
+        background-color: green;
+    }
+}
+
+@media (min-width : 300px) and (max-width: 400px){
+    #div2{
+        background-color: pink;
+    }
+}
+
+@media (min-width : 400px) and (max-width: 600px){
+    #div2{
+        background-color: red;
+    }
+}
+
+@media (min-width : 600px){
+    #div2{
+        background-color: blue;
+    }
+}

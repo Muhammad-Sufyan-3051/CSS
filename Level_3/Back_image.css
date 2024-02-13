@@ -1,0 +1,40 @@
+/* Background Image */
+
+div{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    border: 8px solid black;
+}
+
+body{
+    background-image: url("/Level_3.html/nature_image.jpg");
+    background-size: cover;
+    background-position: 100%;
+}
+
+#box4{
+    left: 550px;
+    background-image: url("/Level_3.html/baby_image.jpg");
+    background-size: contain;
+}
+
+#box3{
+    left: 400px;
+    background-image: url("/Level_3.html/cake_image.jpg");
+    background-size: cover;
+}
+
+#box2{
+    left: 300px;
+    background-image: url("/Level_3.html/lady_image.jpg");
+    background-size: cover;
+}
+
+#box1{
+    left: 200px;
+    background-image: url("/Level_3.html/sun_image.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,78 @@
+/* Practice SET 1 */
+
+#box{
+    background-color: blue;
+    color: white;
+}
+
+.Heading{
+    color: red;
+}
+
+button{
+    color: white;
+    background-color: green;
+}
+
+/* Text Align *//* Text Decoration */
+#Heading{
+    text-align: center;
+    text-decoration: blue double underline;
+    /* text-decoration: overline;
+    text-decoration: line-through; */
+}
+#box2{
+    text-align: start;
+    text-decoration: blue double underline;
+}
+a{
+    text-decoration: none;
+}
+
+/* Font weight */
+#h1{
+    font-weight: lighter;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: normal;
+}
+#h4{
+    font-weight: bolder;
+}
+
+/* Font Family, Font Size, Line Height, Text Transform */
+#p1{
+    font-family: Arial;
+    font-size: 20px;
+    line-height: normal;
+    text-transform: lowercase;
+}
+#p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+
+/* Practice SET 2 */
+
+#first{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}

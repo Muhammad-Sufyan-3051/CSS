@@ -1,0 +1,44 @@
+#nature{
+    height: 300px;
+    width: 300px;
+    background-image: url("/Level_3.html/Love_image.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    right: 0px;
+    top: 170px;
+}
+
+#img{
+    height: 500px;
+    width: 100vw;
+    background-image: url("/Level_3.html/sun_image.jpg");
+    background-size: cover;
+    background-position: 100%;
+
+}
+
+#Love{
+    height: 50px;
+    width: 100vw;
+    position: static;
+    top: 100px;
+    left: 0px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    height: 50px;
+    width: 100vw;
+    position: static;
+    bottom: 0px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,199 @@
+/* Box Model in CSS */
+#Heading{
+    height: 40px;
+    width: 300px;
+    background-color: burlywood;
+    /* border: double;
+    border-width: 5px;
+    border-color: rgb(140, 18, 7); */
+    border: 5px double rgb(140, 18, 7);
+    border-radius: 20px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(172, 138, 53);
+}
+
+p{
+    background-color: rgb(123, 220, 220);
+    height: 100px;
+    width: 400px;
+    /* border: double;
+    border-width: 3px;
+    border-color: black; */
+    border: 3px double black;
+    border-radius: 5px;
+    text-align: start;
+}
+
+#b{
+    background-color: rgb(88, 196, 173);
+    height: 80px;
+    width: 100px;
+    border: dotted;
+    text-align: center;
+
+}
+
+.Box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(161, 37, 58);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.padding{
+    background-color: rgb(192, 154, 67);
+    height: 100px;
+    width: 100px;
+    border: 2px double red;
+    padding: 20px;
+    /* padding-left: 20px;
+    padding-bottom: 20px; */
+    /* padding: 1px 2px 3px 4px; */
+
+    margin: 20px;
+}
+
+/* Practice SET 3 */
+#Task{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#Signal{
+    border: 3px solid black;
+    height: 246px;
+    width: 99px;
+}
+
+#S1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 24px;
+}
+
+#S2{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 24px;
+}
+
+#S3{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 24px;
+}
+
+/* #navbar{
+    background-color: #0f1111;
+    height: 60px;
+    border: 3px solid red;
+}
+
+#nav1{
+    color: orangered;
+}
+
+#nav2,a{
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+#nav3,a{
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+#nav4,a{
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+#nav5,input{
+    margin-left: 20px;
+}
+
+#nav6,button{
+    color: white;
+    background-color: #f08804;
+} */
+
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Display Property */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 25px;
+    display: inline-block;
+}
+
+#dis{
+    display: none;
+}
+
+#dis2{
+    visibility: hidden;
+}
+
+button{
+    display: block;
+}
+
+/* Alpha Channel */
+
+.box2{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 25px;
+    background-color: rgba(240, 136, 4, 0.25);
+}
+
+#A1{
+    background-color: rgba(240, 136, 4, 0.5);
+}
+
+#A2{
+    background-color: rgba(240, 136, 4, 0.75);
+}
+
+#A3{
+    background-color: rgba(240, 136, 4, 1);
+}
+
+/* Practice SET 4 */
+
