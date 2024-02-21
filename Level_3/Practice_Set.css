@@ -1,7 +1,7 @@
 #nature{
     height: 300px;
     width: 300px;
-    background-image: url("/Level_3.html/Love_image.jpg");
+    background-image: url("/Level_3/Love_image.jpg");
     background-size: cover;
     color: white;
     font-size: 40px;
@@ -13,7 +13,7 @@
 #img{
     height: 500px;
     width: 100vw;
-    background-image: url("/Level_3.html/sun_image.jpg");
+    background-image: url("/Level_3/sun_image.jpg");
     background-size: cover;
     background-position: 100%;
 
