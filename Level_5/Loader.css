@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 196, 131, 0.8);
+}
+
+.loader{
+    height: 50px;
+    width: 50px;
+    flex-direction: row;
+    border-radius: 50%;
+    border: 10px solid;
+    border-bottom: 10px solid rgb(253, 255, 255);
+    animation: loader 1s infinite reverse;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+}
+
+@keyframes loader{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
