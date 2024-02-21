@@ -1,0 +1,87 @@
+div{
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s; */
+    /* shorthand */
+    transition: all 2s ease-in 0.5s;
+}
+
+div:hover{
+    background-color: blue;
+    color: aquamarine;
+    font-size: 30px;
+}
+
+div:active{
+    background-color: aqua;
+    color: black;
+}
+
+/* Transform */
+
+#div2{
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: rebeccapurple;
+    margin-top: 40px;
+    margin-left: 300px;
+    /* transform: rotate(90deg); */
+    rotate: z 270deg;
+    /* transform: scale(1,1.5); */
+    /* transform: scaleY(2); */
+}
+
+#div2:hover{
+    transform: rotate(90deg) scaleY(2);
+    transition: all 2s ease-in 1s;
+}
+
+
+#div3{
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: orange;
+    margin-top: 40px;
+    margin-left: 600px;
+    display: inline-block;
+}
+
+#div3:hover{
+    transform: translateX(-300px);
+    transition: all 2s ease-in 1s;
+    font-size: 30px;
+    background-color: brown;
+}
+
+#div4{
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(26, 255, 0);
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}
+
+#div4:hover{
+    transform: skew(30deg);
+}
