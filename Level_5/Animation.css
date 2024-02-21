@@ -1,0 +1,126 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    /* animation-name: colorAnimate;
+    animation-duration: 0.15s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;     */
+    /* shorthand */
+    animation: colorAnimate 0.15s none 0s infinite;
+}
+
+@keyframes colorAnimate{
+    from{background-color: yellow;}
+    to{background-color: red;}
+}
+
+
+#div2{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: aqua;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    /* animation-name: position;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    /* shorthand */
+    animation: position 2s  2s ease-in infinite normal;
+}
+
+@keyframes position{
+    0%{
+        left: 450px;
+        background-color: blue;
+    }
+
+    50%{
+        background-color: green;
+    }
+
+    100%{
+        left: 1000px;
+        background-color: red;
+    }
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 320px;
+    left: 350px;
+    /* animation-name: position;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: position 2s ease-out 4s infinite reverse;
+}
+
+#div4{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: burlywood;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    /* animation-name: position;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: position 2s ease-out 6s infinite alternate;
+
+}
+
+#div5{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid black;
+    color: white;
+    background-color: chartreuse;
+    position: absolute;
+    top: 580px;
+    left: 350px;
+    /* animation-name: position;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation: position 2s ease-out 8s infinite alternate-reverse;
+}
